@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+    <script src="scriptform.js"></script>
+    <title>Solicitud de contacto</title>
+</head>
+<body>
+        <div class="container">
+            <h2 class="titleform">Formulario de tareas</h2>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">ID</label>
+                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Escriba su ID">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Título</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Escriba el título">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Descripción</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Tiempo</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Escriba el tiempo">
+            </div>
+            <div class="mb-3">
+                <label for="formFileSm" class="form-label">Imagen</label>
+                <input class="form-control form-control-sm" id="formFileSm" type="file">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Responsable</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Escriba el nombre">
+            </div>
+            <div>
+                <label for="exampleFormControlInput1" class="form-label">Estado</label>
+                <select id="estadoSelect" class="form-select" aria-label="Default select example">
+                    <option selected>Seleccionar</option>
+                    <option value="1">Pendiente</option>
+                    <option value="2">En proceso</option>
+                    <option value="3">Completado</option>
+                </select>
+            </div>
+            <div>
+                <label for="estadoSeleccionado" class="form-label">Estado seleccionado:</label>
+                <span id="estadoSeleccionado"></span>
+            </div>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>    
+</body>
+</html>

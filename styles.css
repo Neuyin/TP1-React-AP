@@ -1,0 +1,14 @@
+body {
+    max-width: 500px; 
+    padding: 30px;
+}
+
+.container {
+    display: inline-block;
+    position: relative;
+    width: 100%; 
+}
+
+.titleform {
+    text-align: center;
+}
